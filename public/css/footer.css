@@ -1,0 +1,12 @@
+.my_bg{
+	background: #000010 !important;
+}
+.my_color{
+	color: darkgray;
+}
+.my_color:hover{
+	color: darkgray
+}
+.my_bg1{
+	background: rgb(9,12,25)  !important;
+}

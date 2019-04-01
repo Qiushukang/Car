@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/dl.js">
+		</script>
+	</head>
+
+	<body>
+		<div class="header_nav header_nav_bg p-2">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-7 col-md-6 ">
+						<a href="#">
+							<img src="images/index/facebook_128px_1223238_easyicon.net.png" alt="">
+						</a>
+						<a href="#">
+							<img src="images/index/badoo_128px_1223239_easyicon.net.png" alt="">
+						</a>
+						<a href="#">
+							<img src="images/index/tumblr_128px_1223251_easyicon.net.png" alt="">
+						</a>
+						<a href="#">
+							<img src="images/index/twitter_128px_1223252_easyicon.net.png" alt="">
+						</a>
+					</div>
+					<div class="col-xs-5 col-md-6 font-weight-bold text-right">
+						<span class="mr-2">
+					<a data-toggle='modal' data-target='#modal1' href="#modal1">Signin</a>
+					<div id="modal1" class="modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body"><ul class="nav nav-tabs d-flex justify-content-center">
+				<li class="nav-item"><a class="nav-link active text-info " href="#dd1" data-toggle='tab'>Signin</a></li>
+				<li class="nav-item"><a class="nav-link text-info" data-toggle='tab' href="#dd2">Regist</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active pt-2 text-left" id="dd1">
+					<div><img src="images/login/登录.png" class=""/><span class="text-info input1">Name:</span></div>
+					<input type="text" class="form-control mt-1" id="cname"/>
+					<div><img src="images/login/密码.png" class=""/><span class="text-info input1">Password:</span></div>
+					<input type="password" class="form-control mt-1" id="cpwd"/>
+					<div><button class="btn btn-info mt-2" onclick="dl()" disabled="disabled">login</button></div>
+				</div>
+					<div class="tab-pane text-left" id="dd2">
+						<div><img src="images/login/登录.png" class=""/><span class="text-info input1">Name:<span  id="span1" class="d-inline-block text-danger"></span></span></div>
+					<input type="text" class="form-control mt-1" id="zcname" />
+					<div><img src="images/login/密码.png" class=""/><span class="text-info input1">Password:</span></div>
+					<input type="password" class="form-control mt-1" id="zcpwd"/>
+					<div><img src="images/login/手机 (1).png" class=""/><span class="text-info input1">Phone:</span></div>
+					<input type="tel" class="form-control mt-1"  id="cphone"/>
+					<div><img src="images/login/邮箱 (1).png" class=""/><span class="text-info input1">Email:</span></div>
+					<input type="email" class="form-control mt-1" id="email" />
+					<div><button class="btn btn-info mt-2"  onclick="zc()" id="btn2">Register</button></div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer"><button class="btn btn-warning" data-dismiss='modal'>关闭</button></div>
+		</div>
+		</div>
+		</div>
+		</span>
+		<span><a href="" data-toggle='modal' data-target='#modal1' href="#modal1">Regesiter</a></span>
+		</div>
+		</div>
+		</div>
+		</div>
+		<header class="card">
+			<div class="container">
+				<div class="navbar navbar-expand-sm navbar-dark pl-0 pr-0">
+					<a href="" class="navbar-brand"><img src="images/index/3.png" class="h-100" style="animation: fadeInLeft  running  2s;"/></a>
+					<button data-toggle="collapse" data-target="#content" class="navbar-toggler nav ">
+			<!--按钮里的三条线-->
+					<span class='navbar-toggler-icon card'></span>
+				</button>
+					<!--折叠的导航-->
+					<div id="content" class="collapse navbar-collapse justify-content-end h-100" style="animation: fadeInRight  running  2s;">
+						<ul class="navbar-nav h-100">
+							<li class="nav-item h-100">
+								<a href="index.html" class="nav-link">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a href="services.html" class="nav-link">SERVICES</a>
+							</li>
+							<li class="nav-item">
+								<a href="about.html" class="nav-link">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a href="blog.html" class="nav-link">BLOG</a>
+							</li>
+							<li class="nav-item">
+								<a href="careers.html" class="nav-link">CHREERS</a>
+							</li>
+							<li class="nav-item">
+								<a href="conectus.html" class="nav-link">CONECTUS</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="picture">
+			<div class="carousel" id="demo" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active text-center pt-5 pb-5">
+						<span class="text-white h1">WELCOME TO</span>
+						<span class="text-white h1 mt-4 d-block">VEDHAR CORPORATE</span>
+						<div>
+							<button class="btn-lg btn-dark mr-3 mt-5 mb-5 picture_btn">CONNECT US</button>
+							<button class="btn-lg btn-dark mt-5 mb-5 picture_btn">PURCHASE NOW</button>
+						</div>
+					</div>
+					<div class="carousel-item text-center pt-5 pb-5">
+						<span class="text-white h1">WELCOME TO</span>
+						<span class="text-white h1 mt-4 d-block">VEDHAR CORPORATE</span>
+						<div>
+							<button class="btn-lg btn-dark mr-3 mt-5 mb-5 picture_btn">CONNECT US</button>
+							<button class="btn-lg btn-dark mt-5 mb-5 picture_btn">PURCHASE NOW</button>
+						</div>
+					</div>
+					<div class="carousel-item text-center pt-5 pb-5">
+						<span class="text-white h1">WELCOME TO</span>
+						<span class="text-white h1 mt-4 d-block">VEDHAR CORPORATE</span>
+						<div>
+							<button class="btn-lg btn-dark mr-3 mt-5 mb-5 picture_btn">CONNECT US</button>
+							<button class="btn-lg btn-dark mt-5 mb-5 picture_btn">PURCHASE NOW</button>
+						</div>
+					</div>
+					<ul class="carousel-indicators">
+						<li class="active" data-slide-to='0' data-target='#demo'>
+							<p></p>
+						</li>
+						<li data-target='#demo' data-slide-to='1'>
+							<p></p>
+						</li>
+						<li data-target='#demo' data-slide-to='2'>
+							<p></p>
+						</li>
+					</ul>
+				</div>
+				<section class="section1 pb-5 " >
+					<div class="container mt-5">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<h1 class=" after_content">About Vedha</h1></div>
+							<p class="w-50 m-auto text-center zitigray">We're building a great company, and we're very excited about the future of the company.</p>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-5"  style="animation: fadeInLeft  linear  2s;">
+								<img src="images/index/index3.png" class="w-100"/>
+							</div>
+							<div class="col-sm-7">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="float-left w-25">
+											<img src="images/index/responsible-energy-use.png" class="float-left w-75 mt-5" />
+										</div>
+										<div class="float-left w-75 mt-5">
+											<h6>Responsibility</h6>
+											<p class="mb-0 zitigray ">Lorem ipsum dolor sit amet consectetuer adipiscing elit.. </p>
+											<a href="">Read More</a>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="float-left w-25">
+											<img src="images/index/diversity.png" class="float-left w-75 mt-5" />
+										</div>
+										<div class="float-left w-75 mt-5">
+											<h6>Responsibility</h6>
+											<p class="mb-0 zitigray">Lorem ipsum dolor sit amet consectetuer adipiscing elit.. </p>
+											<a href="">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6 mt-sm-5">
+										<div class="float-left w-25">
+											<img src="images/index/global.png" class="float-left w-75 mt-5" />
+										</div>
+										<div class="float-left w-75 mt-5">
+											<h6>Responsibility</h6>
+											<p class="mb-0 zitigray">Lorem ipsum dolor sit amet consectetuer adipiscing elit.. </p>
+											<a href="">Read More</a>
+										</div>
+									</div>
+									<div class="col-sm-6 mt-sm-5">
+										<div class="float-left w-25">
+											<img src="images/index/leadrship.png" class="float-left w-75 mt-5" />
+										</div>
+										<div class="float-left w-75 mt-5">
+											<h6>Responsibility</h6>
+											<p class="mb-0 zitigray">Lorem ipsum dolor sit amet consectetuer adipiscing elit.. </p>
+											<a href="">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row bg_img mt-5 text-white">
+						<div class="col-sm-12 text-center mt-5">
+							<h1 class=" after_content">Statistics</h1>
+							<p class="w-50 m-auto text-center text-white">Southwest Airlines is successful because the company understands it's a customer service company. It also happens to be an airline.</p>
+						</div>
+
+						<div class="row d-flex justify-content-around text-center w-100 mt-5 mb-5">
+							<div class="col-sm-3 mt-5">
+								<h1 class="my_lg">56</h1>
+								<h4>Overseas Operation</h4>
+							</div>
+							<div class="col-sm-3 mt-5">
+								<h1 class="my_lg">1600</h1>
+								<h4>Investors</h4>
+							</div>
+							<div class="col-sm-3 mt-5">
+								<h1 class="my_lg">1400</h1>
+								<h4>Client Support</h4>
+							</div>
+							<div class="col-sm-3 mt-5">
+								<h1 class="my_lg">97 %</h1>
+								<h4>Success Rate</h4>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center mt-5">
+								<h1 class=" after_content">Statistics</h1>
+								<p class="w-50 m-auto text-center ">Southwest Airlines is successful because the company understands it's a customer service company. It also happens to be an airline.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 mt-3">
+								<img src="images/index/home2_slider_layer3.png" class="w-100" />
+							</div>
+							<div class="col-sm-4 mt-3 text-center">
+								<ul class="list-unstyled">
+									<li>
+										<a href="" class="zitigray">>>Big Data & Analytics</a>
+									</li>
+									<li>
+										<a href="" class="zitigray">>>Cloud Solutions & Services</a>
+									</li>
+									<li>
+										<a href="" class="zitigray">>>Web Development</a>
+									</li>
+									<li>
+										<a href="" class="zitigray">>>Certified Electricians</a>
+									</li>
+									<li>
+										<a href="" class="zitigray">>>Insurance against Damages</a>
+									</li>
+									<li>
+										<a href="" class="zitigray">>>Management of Construction</a>
+									</li>
+									<li>
+										<a href="" class="zitigray">>>Guaranteed Quality</a>
+									</li>
+									<li>
+										<a href="" class="zitigray">>>Construction Activities</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-sm-4">
+								<div id="demo1" class="carousel mt-4" data-ride="carousel">
+									<!--1.轮播图片-->
+									<div class="carousel-inner">
+										<!--溢出隐藏-->
+										<div class="carousel-item  active">
+											<!--每张图片都放在item；display：none-->
+											<img src="images/index/gallery2.jpg" class="w-100" />
+										</div>
+										<div class="carousel-item">
+											<!--每张图片都放在item；display：none-->
+											<img src="images/index/newsroom3.jpg" class="w-100" />
+										</div>
+										<div class="carousel-item">
+											<!--每张图片都放在item；display：none-->
+											<img src="images/index/portfolio5.jpg" class="w-100" />
+										</div>
+									</div>
+									<a data-slide='prev' href="#demo1" class="carousel-control-prev "><span class="carousel-control-prev-icon"></span></a>
+									<a data-slide='next' href="#demo1" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+								</div>
+							</div>
+						</div>
+				</section>
+				<div class="search">
+					<div class="container p-5">
+						<div class="row">
+							<div class="col-sm-4">
+								<h4 class="text-white mr-2 mt-3">Subscribe To Our Newsletter</h4></div>
+							<div class="col-sm-8 d-flex justify-content-center">
+								<div class="row">
+									<div class="col-8 d-inline-block"><input type="email" placeholder="请输入邮箱" class="w-100 mt-3 h-50 bgnone border-dark pl-1 rounded" /></div>
+									<div class="col-4">
+										<a href="" class="btn-lg btn-info d-inline-block mt-2">搜索</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row mt-5 text-white">
+						<div class="col-sm-12 text-center mt-5">
+							<h1 class=" after_content text-dark">Pricing Table</h1>
+							<p class="w-50 m-auto text-center text-dark">If we look at pricing holistically, we'll create a more solid business.
+							</p>
+						</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-md-4 col-sm-12 d-flex justify-content-center">
+							<div class="box w-75 ">
+								<div class="row border border-info">
+									<div class="col-sm-12 bg-danger pt-3">
+										<p class="text-white text-center mt-1">Basic</p>
+									</div>
+									<div class="col-sm-12 bg-success">
+										<h1 class="text-white  mt-4">$9</h1>
+										<h4 class="text-white  mb-4">Per Month</h4>
+									</div>
+									<div class="col-sm-12">
+										<ul class="color2">
+											<li class="mt-3"> √Monthly Subscription</li>
+											<li class="mt-3"> √Display Advertising</li>
+											<li class="mt-3"> √Multiple Administrators</li>
+											<li class="mt-3"> √Enable Rss Feeds</li>
+										</ul>
+									</div>
+									<div class="col-sm-12 bg-warning text-center">
+										<button class="btn btn-danger rounded-circle mt-3 mb-2">
+								Get Start
+							</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12 d-flex justify-content-center">
+							<div class="box w-75">
+								<div class="row border border-info">
+									<div class="col-sm-12 bg-primary pt-3">
+										<p class="text-white text-center mt-1">Intermediate</p>
+									</div>
+									<div class="col-sm-12 bg-secondary">
+										<h1 class="text-white mt-4">$29</h1>
+										<h4 class="text-white mb-4">Per Month</h4>
+									</div>
+									<div class="col-sm-12">
+										<ul class="color2">
+											<li class="mt-3"> √Monthly Subscription</li>
+											<li class="mt-3"> √Display Advertising</li>
+											<li class="mt-3"> √Multiple Administrators</li>
+											<li class="mt-3"> √Enable Rss Feeds</li>
+										</ul>
+									</div>
+									<div class="col-sm-12 bg-info text-center">
+										<button class="btn btn-light rounded-circle mt-3 mb-2">
+								Get Start
+							</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12 d-flex justify-content-center">
+							<div class="box w-75">
+								<div class="row border border-info">
+									<div class="col-sm-12 bg-success pt-3">
+										<p class="text-white text-center mt-1">Expert</p>
+									</div>
+									<div class="col-sm-12 bg-light">
+										<h1 class="text-dark mt-4">$99</h1>
+										<h4 class="text-dark mb-4">Per Month</h4>
+									</div>
+									<div class="col-sm-12">
+										<ul class="color2">
+											<li class="mt-3"> √Monthly Subscription</li>
+											<li class="mt-3"> √Display Advertising</li>
+											<li class="mt-3"> √Multiple Administrators</li>
+											<li class="mt-3"> √Enable Rss Feeds</li>
+										</ul>
+									</div>
+									<div class="col-sm-12 bg-secondary text-center">
+										<button class="btn btn-primary rounded-circle mt-3 mb-2">
+								Get Start
+							</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer_picture mt-5">
+			<img src="images/footer/shape.png" class="w-100"/>
+		</div>
+		<footer class="my_bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+					<h4 class="text-white">Corporate</h4>
+					<hr size="1" color="darkgray"/>
+					<p class="my_color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+					<div class="d-flex justify-content-around"><a href=""><img src="images/footer/facebook_24px_1139647_easyicon.net.png" alt="" /></a>
+					<a href=""><img src="images/footer/gplus_24px_1139624_easyicon.net.png" alt=""  class="rounded-circle"/></a>
+					<a href=""><img src="images/footer/linkedin_24px_1139630_easyicon.net.png" alt=""  class="rounded-circle"/></a>
+					<a href=""><img src="images/footer/skype_24px_1139634_easyicon.net.png" alt=""  class="rounded-circle"/></a></div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h4 class="text-white">Corporate</h4>
+					<hr size="1" color="darkgray"/>
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h4 class="text-white">Dribbble</h4>
+					<hr size="1" color="darkgray"/>
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h4 class="text-white">Twitter Feed</h4>
+					<hr size="1" color="darkgray"/>
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+						<div class="col-sm-12">
+							<a href="" class="my_color">The right team in the right place</a>
+							<p class="text-muted">Jan. 25, 2017</p>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="my_bg1">
+				<div class="container">
+					<div class="row">
+					<div class="col-sm-6 mt-3 mb-3">
+						<a href="" class="my_color">Home</a>
+						<a href="" class="my_color">Services</a>
+						<a href="" class="my_color">About</a>
+						<a href="" class="my_color">Careers</a>
+					</div>
+					<div class="col-sm-6 mt-3 mb-3">
+						<p class="text-muted mb-0">Copyright © 2017.Company name All rights reserved.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
